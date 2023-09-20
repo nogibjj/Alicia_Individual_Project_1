@@ -1,33 +1,28 @@
-"""This Script is used to deploy descriptive statistics
-on the diabetes dataset using functions already
-defined by the lib.py"""
+"""This Script is used to deploy dexcriptive dtatistics 
+on the population dataset using function 
+already defined by the lib.py"""
 import lib
 import pandas as pd
 
 
-def run_statistics(data, column):
-    """Statistics for Diabetes dataset"""
-
+def run_statistics(data):
     result = {
-        "Maximum": lib.maximum(data, column),
-        "Minimum": lib.minimum(data, column),
-        "Mean": lib.get_mean(data, column),
-        "Median": lib.get_median(data, column),
-        "Standard Deviation": lib.get_std_dev(data, column),
+        "head": lib.max(data),
+        "mean": lib.mean(data),
+        "std": lib.std(data),
+        "summary": lib.summary(data),
     }
 
     return result
 
 
-def run_visualizations(data, column):
+def run_visualizations(data):
     "Runs visualizations on the passed dataset"
-    lib.display_statistics(data)
-    lib.visualize_dataset(data, jupyter=False)
+    lib.viz_population(data, jupyter=True)
+    lib.countries_interest(data)
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("data/diabetes.csv")
-    column = "Glucose"
-    print("run")
-    results = run_statistics(data, column)
-    run_visualizations(data, column)
+    data = pd.read_csv("data/population.csv")
+    results = run_statistics(data)
+    run_visualizations(data)
