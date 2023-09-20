@@ -1,25 +1,22 @@
-# Data Analysis: Glucose, Insulin, and BMI as predictor variables on the outcome variable (whether a patient is Diabetic or not)
-
-[![Install](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/install.yml)[![Lint](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/lint.yml)[![Format](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/format.yml)[![Test](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Simrun_Continuous_Integration_using_GitHub_Actions_of_Python_Data_Science_Project/actions/workflows/test.yml)
+# Data Analysis: Analyze 266 countries population growth in 67 years.
 
 ## Data Source
-This dataset contains information about female patients that are at least 21 years old and are of Pima Indian Heritage. From each patient the dataset gleans diagnostic measurements of BMI, Insulin, Pregnancies, Blood Pressure, Skin Thickness, Glucose, etc. This data was collected from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to determine if the patient has diabetes or not. The outcome variable tells with a (1-Diabetic) v. (0-Not Diabetic). I specifcally wanted to analyze Insulin, Glucose, and BMI as my predictor variables. I conduct a descriptive analysis/statistics of this dataset to deeper understand these variables relationship with Diabetes.
-You can access the data from the following URL: [Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?select=diabetes.csv).
+The dataset is composed of 266 countries' 62 years population growth in annual percentage.
+You can access the data from the following URL: [population.csv] https://data.worldbank.org/indicator/SP.POP.GROW
 
 ## Code Overview
 
-### 1. Shared Common Code Script: lib.py
-In this script I am using many different functions to create a holistic understanding of my statistical analysis along with visualizing the data in three different plots and tables. 
-  1. get_median()
-  2. get_mean()
-  3. get_std_dev()
-  4. minimum()
-  5. maximum()
-  6. visualize_dataset()
-  7. display_statistics()
+### 1. Library of my shared functions
+In the library I created 'head
+  1. head()
+  2. mean()
+  3. std()
+  4. summary()
+  5. countries_interest()
+  6. viz_population()
 
 ### 2. Jupyter Notebook and Python Script.py
-The Jupyter notebook provides a visual representation of the code represented in our lib.py. The python script.py descriptive stats uses pandas and lib functions. I used nbval for pytest to ensure valdity of code. 
+My jupyter notebook helps to scratch my overall thought about how to analyze my data and it provides a direct reflets of each line of code
 
 ### 3. MakeFile and Workflows
 I created four different workflows to show each step of my Makefile. Install: runs the packages indicated in my requirements.txt

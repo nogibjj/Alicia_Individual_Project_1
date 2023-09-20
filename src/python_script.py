@@ -23,6 +23,6 @@ def run_visualizations(data):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("data/population.csv")
+    data = pd.read_csv("population.csv")
     results = run_statistics(data)
     run_visualizations(data)

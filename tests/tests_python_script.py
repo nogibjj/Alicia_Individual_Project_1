@@ -8,7 +8,7 @@ import pandas as pd
 
 def test_run_statistics():
     "Test the descriptive stats function in python script"
-    data = pd.read_csv("data/population.csv")
+    data = pd.read_csv("population.csv")
 
     results = run_statistics(data)
     
