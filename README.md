@@ -26,7 +26,7 @@ Format: Formats code with Python black formatter
 Test: Runs tests on notebook, script, and library
 
 ### 4. Test_script.py and Test_lib.py
-Both these files containes tests for their respective python scripts. This ensures the code in functionally performs well.
+I use 
 
 ### 5. Understanding the statistics functions
 The objective is to analyze the relationship between Insulin, Glucose, BMI, and diabetes status (1 for diabetic, 0 for not diabetic). The functions defined calculate maximum, minimum, mean, median, and standard deviation for these key variables, aiding in a descriptive analysis of their association with diabetes.
