@@ -32,7 +32,7 @@ I tested my main script and also my functions in library to make sure they work 
 The main purpose of this project is to have a peak of dataset with function I created 'head' to have a peak on the data firstly and generated basic statistics insight from the population data. So I generated a function 'mean','max','std', calculating mean, max, standard deviation. Then, I pulled out four interested countries population growth percentages to have look at my data.
 
 ### 6. Understanding the Data Visualization functions
-In this code, count plots offer a glimpse into the distribution of data types, especially the prevalence of diabetic and non-diabetic cases. Understanding this distribution is vital for addressing class imbalance and potential biases in a diabetes prediction scenario. On the other hand, bar plots help visually compare predictor variables like Glucose, Insulin, and BMI against diabetes status, revealing insights into their association with the outcome. These visualizations aid in identifying patterns and trends, such as higher Glucose levels being more common among diabetic patients. Overall, count and bar plots provide valuable visual context, enabling informed decisions in diabetes research and predictive modeling.
+
 
 ## Results
 
