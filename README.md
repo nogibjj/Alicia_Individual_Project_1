@@ -16,11 +16,12 @@ In the library I created 'head
   6. viz_population()
 
 ### 2. Jupyter Notebook and Python Script.py
-My jupyter notebook helps to scratch my overall thought about how to analyze my data and it provides a direct reflets of each line of code
+My jupyter notebook helps to scratch my overall thought about how to analyze my data and it provides visualized result of each line of code.
 
 ### 3. MakeFile and Workflows
-I created four different workflows to show each step of my Makefile. Install: runs the packages indicated in my requirements.txt
-Lint: Lints the code with Ruff to ensure correct python convention is held
+I seperated my Makefile into 4 individual .yml files to seperately automate 4 workflows
+Install: runs the packages indicated in my requirements.txt
+Lint: Lints the code with Ruff to make sure code doesn't have syntex problem or unused lines.
 Format: Formats code with Python black formatter
 Test: Runs tests on notebook, script, and library
 

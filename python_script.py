@@ -1,4 +1,4 @@
-"""This Script is used to deploy dexcriptive dtatistics 
+"""This Script is used to deploy descriptive statistics 
 on the population dataset using function 
 already defined by the lib.py"""
 import lib
@@ -23,6 +23,6 @@ def run_visualizations(data):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("/workspaces/Alicia_Individual_Project_1/src/population.csv")
+    data = pd.read_csv("/workspaces/Alicia_Individual_Project_1/population.csv")
     results = run_statistics(data)
     run_visualizations(data)
