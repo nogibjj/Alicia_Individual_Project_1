@@ -7,8 +7,8 @@ def test_run_statistics():
     data = pd.read_csv("population.csv")
 
     results = run_statistics(data)
-    
-    assert 'max' in results
-    assert 'head' in results
-    assert 'mean' in results
-    assert 'std' in results
+
+    assert "max" in results
+    assert "head" in results
+    assert "mean" in results
+    assert "std" in results

@@ -26,24 +26,18 @@ Format: Formats code with Python black formatter
 Test: Runs tests on notebook, script, and library
 
 ### 4. Test_script.py and Test_lib.py
-I use 
+I tested my main script and also my functions in library to make sure they work properly.
 
 ### 5. Understanding the statistics functions
-The objective is to analyze the relationship between Insulin, Glucose, BMI, and diabetes status (1 for diabetic, 0 for not diabetic). The functions defined calculate maximum, minimum, mean, median, and standard deviation for these key variables, aiding in a descriptive analysis of their association with diabetes.
+The main purpose of this project is to have a peak of dataset with function I created 'head' to have a peak on the data firstly and generated basic statistics insight from the population data. So I generated a function 'mean','max','std', calculating mean, max, standard deviation. Then, I pulled out four interested countries population growth percentages to have look at my data.
 
 ### 6. Understanding the Data Visualization functions
 In this code, count plots offer a glimpse into the distribution of data types, especially the prevalence of diabetic and non-diabetic cases. Understanding this distribution is vital for addressing class imbalance and potential biases in a diabetes prediction scenario. On the other hand, bar plots help visually compare predictor variables like Glucose, Insulin, and BMI against diabetes status, revealing insights into their association with the outcome. These visualizations aid in identifying patterns and trends, such as higher Glucose levels being more common among diabetic patients. Overall, count and bar plots provide valuable visual context, enabling informed decisions in diabetes research and predictive modeling.
 
 ## Results
 
-![After executing the code, the following descriptive statistics are for Glucose, Insulin, and BMI](https://user-images.githubusercontent.com/141798228/268531816-2f9924ab-d11c-422a-b509-bb3cb042a723.jpg)
 
-These statistics offer insights into the central tendency and spread of the diabetes patients, contributing to a better understanding of its distribution.
 
-The visualization below illustrates the relationship between the predictor variable (Insulin, Glucose, BMI) and the Outcome variable (Whether a patient has diabetes or doesn't have diabetes)
-
-![Countplot](https://user-images.githubusercontent.com/141798228/268531789-4ee528a7-c91f-4281-b2e6-ea15daa89a42.png)
-![Barplot](https://user-images.githubusercontent.com/141798228/268531736-b20fb998-b839-4c6a-b8af-3749b5ed8f4b.png)
 
 ## Conclusion
 This script serves as a valuable tool for investigating the interplay between crucial predictor variables—Glucose, Insulin, and BMI—and the diabetes status indicator within the context of the Pima Indian female patient dataset. By offering essential descriptive statistics and intuitive visualizations like count plots and bar plots, it allows for a deeper understanding of how these variables are linked to the likelihood of diabetes. These insights provide a solid foundation for conducting more advanced analyses and informed decision-making in the domain of diabetes research and prediction
