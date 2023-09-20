@@ -69,7 +69,7 @@ def viz_population(csv, jupyter=True):
 
 
 if __name__ == "__main__":
-    data = pd.read_scv("population.csv")
+    data = pd.read_scv("/workspaces/Alicia_Individual_Project_1/src/population.csv")
     print("head: ", head(data))
     print("mean: ", mean(data))
     print("max: ", max(data))
