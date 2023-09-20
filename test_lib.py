@@ -1,7 +1,6 @@
 "We will use pytest to test our functions from src/lib.py"
 from lib import head, mean, max
 import pandas as pd
-import matplotlib.pyplot as plt
 
 def test_head():
     """Test function for the get_mean"""
