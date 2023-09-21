@@ -24,7 +24,7 @@ Install: runs the packages indicated in my requirements.txt
 Lint: Lints the code with Ruff to make sure code doesn't have syntex problem or unused lines.
 Format: Formats code with Python black formatter
 Test: Runs tests on notebook, script, and library
-And all files ran succesfully.
+Installs code via:  pip install -r requirements.txt
 
 ### 4. Test_script.py and Test_lib.py
 I tested my main 'script.py' with 'test_python_script.py' and also 'lib.py' with 'test_lib.py' to make sure my functions in library works and also the main script of my code works as well.
