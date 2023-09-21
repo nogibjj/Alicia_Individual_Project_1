@@ -1,4 +1,8 @@
 # Data Analysis: Analyze 266 countries population growth in 67 years.
+[![Format](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Alicia_Individual_Project_1/actions/workflows/test.yml)
 ---Youtube video link here: https://youtu.be/U7vApAowVO4
 ## Data Source
 The dataset is composed of 266 countries' 62 years population growth in annual percentage.
